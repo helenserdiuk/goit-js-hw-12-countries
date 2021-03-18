@@ -8,10 +8,6 @@ import '@pnotify/core/dist/PNotify.css';
 import '@pnotify/core/dist/BrightTheme.css';
 import { alert, error } from '@pnotify/core/dist/PNotify.js';
 
-error({
-  text: 'Notice me, senpai!',
-});
-
 const refs = {
   input: document.querySelector('#input'),
   countriesList: document.querySelector('.country-list'),
